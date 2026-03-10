@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Квиз за круглым столом</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { overflow: hidden; background: #1a1a2e; touch-action: none; font-family: Inter, Arial, sans-serif; }
+    #app { position: relative; width: 100vw; height: 100vh; }
+    .hud { position: absolute; top: 16px; left: 16px; color: #fff; z-index: 5; pointer-events: none; }
+    .hud h1 { font-size: 20px; margin-bottom: 6px; }
+    .hud p { font-size: 14px; opacity: .8; }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
