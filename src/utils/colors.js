@@ -1,0 +1,7 @@
+export const COLORS = {
+  background: 0x1a1a2e,
+  floor: 0x2d3436,
+  table: 0x8b5e3c,
+  chair: 0x654321,
+  confetti: [0xff6b6b, 0xffd93d, 0x6bcb77, 0x4d96ff, 0xff6b9d, 0xc792ea]
+};
